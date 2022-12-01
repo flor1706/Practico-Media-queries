@@ -11,7 +11,7 @@ body {
 div {
     margin: 2rem;
     display: inline-block;
-
+    color: antiquewhite;
 }
 
 div.perfil1 {
@@ -81,7 +81,7 @@ div.perfil4 {
     div {
         margin: auto;
         display: inline-block;
-
+        color: blue;
     }
 
     div.perfil1 {
@@ -111,6 +111,7 @@ div.perfil4 {
         margin: .25rem;
         background-color: rebeccapurple;
         border-radius: 2.5rem;
+        color: antiquewhite;
     }
 
     div.perfil2 {
@@ -139,15 +140,11 @@ div.perfil4 {
 }
 
 @media (max-width:428px) {
-    body {
-        margin: auto;
-    }
 
     div {
-        margin: auto;
         display: flex;
         flex-wrap: wrap;
-
+        color: aquamarine;
     }
 
     div.perfil1 {
@@ -175,6 +172,7 @@ div.perfil4 {
         margin: .25rem;
         background-color: green;
         border-radius: 2.5rem;
+        color: aliceblue;
     }
 
     div.perfil2 {
@@ -188,7 +186,7 @@ div.perfil4 {
         width: 90%;
         height: 75%;
         margin: 1rem;
-        background-color:burlywood;
+        background-color: burlywood;
     }
 
     div.perfil4 {
