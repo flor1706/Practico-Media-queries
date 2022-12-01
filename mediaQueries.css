@@ -137,3 +137,64 @@ div.perfil4 {
         float: inline-end;
     }
 }
+
+@media (max-width:428px) {
+    body {
+        margin: auto;
+    }
+
+    div {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    div.perfil1 {
+        width: 90%;
+        height: 75%;
+        margin: 1rem;
+        background-color: burlywood;
+    }
+
+    .perfiles .img img {
+        width: 90%;
+        height: 90%;
+        margin: 1rem;
+        border-radius: 15rem;
+    }
+
+    .descripcion {
+        margin: .5rem;
+        padding: 0rem;
+        background-color: silver;
+    }
+
+    .boton {
+        width: 5rem;
+        margin: .25rem;
+        background-color: green;
+        border-radius: 2.5rem;
+    }
+
+    div.perfil2 {
+        width: 90%;
+        height: 75%;
+        margin: 1rem;
+        background-color: burlywood;
+    }
+
+    div.perfil3 {
+        width: 90%;
+        height: 75%;
+        margin: 1rem;
+        background-color:burlywood;
+    }
+
+    div.perfil4 {
+        width: 90%;
+        height: 75%;
+        margin: 1rem;
+        background-color: burlywood;
+    }
+}
